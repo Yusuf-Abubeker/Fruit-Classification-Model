@@ -5,10 +5,10 @@ import bgimg from "/fruitai.jpeg";
 import ModelTest from "./ModelTest";
 
 const Home = () => {
-    const handleGetStartedClick = () => {
-        // Scroll to the bottom of the screen
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-      };
+  const handleGetStartedClick = () => {
+    // Scroll to the bottom of the screen
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+  };
   return (
     <>
       <section className="p-8 min-h-screen flex flex-wrap items-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
@@ -17,9 +17,15 @@ const Home = () => {
             <h1 className="text-5xl font-extrabold mb-4">
               Welcome to Image Classifier
             </h1>
-            <p className="text-lg mb-8">
-              An easy-to-use tool for classifying objects in images.
+            <p className="text-lg text-center mb-8">
+              Welcome to our user-friendly image classification tool. This
+              sophisticated tool excels in the classification of objects within
+              images. Our model is specifically designed to categorize fruit
+              images into 14 distinct categories. For more detailed information,
+              please navigate to the 'About' page. Thank you for choosing our
+              platform.
             </p>
+
             <button
               onClick={handleGetStartedClick}
               className="inline-block bg-blue-500 text-white px-6 py-3 rounded-full transition duration-300 transform hover:scale-105 hover:bg-blue-700"
@@ -32,7 +38,7 @@ const Home = () => {
           <img
             src={bgimg}
             alt="Event Background"
-            className="w-48 h-auto object-cover object-center rounded-lg shadow-lg lg:max-h-full"
+            className="w-56 h-auto object-cover object-center rounded-lg shadow-lg ml-2 "
           />
         </div>
       </section>
