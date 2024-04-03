@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="h-1 w-10 bg-blue-500"></div>
         </div>
         <p className="text-sm text-gray-200 mb-6">
-          © 2024 Image Classifier. All rights reserved.(This project built by Group-2 for ml course)
+          © 2024 Image Classifier. All rights reserved.(This project built by Yusuf for ml course)
         </p>
         
         <div className="mt-4 flex space-x-4">
@@ -34,7 +34,7 @@ const Footer = () => {
             <FaTwitter className="mr-2" /> Twitter
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/yusufabubeker/"
             className="text-gray-300 hover:text-blue-500 transition duration-300 flex items-center"
           >
             <FaLinkedin className="mr-2" /> LinkedIn
